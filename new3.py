@@ -26,8 +26,8 @@ conn.commit()
 # Email OTP Sender
 SMTP_SERVER = "smtp.gmail.com"  # Update with your SMTP server
 SMTP_PORT = 587  # SMTP port
-EMAIL_SENDER = "tanmay.aj2004@gmail.com"  # Update with sender email
-EMAIL_PASSWORD = "dptj jvxn lcys wojy"  # Use app password if needed
+EMAIL_SENDER = "jobsearchwebsite4@gmail.com"  # Update with sender email
+EMAIL_PASSWORD = "njmh nqvw idjb mmjw"  # Use app password if needed
 
 def send_otp(email):
     otp = str(random.randint(100000, 999999))
